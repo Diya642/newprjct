@@ -9,12 +9,13 @@ app.use(express.json());
 
 
 // In-memory storage
-let feedbacks = [{id: 1, name: "oneteam"}];
+let feedbacks = [{id:1, name:"Oneteam"}];
 let nextId = 1;
 
 app.get('/',(req,res)=>{
     res.send("Welcome")
-})
+});
+
 
 // GET all feedbacks
 app.get('/feedbacks', (req, res) => {
