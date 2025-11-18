@@ -1,4 +1,4 @@
-import FeedbackForm from "../Feedback/feedbackfrom";
+import FeedbackForm from "../Feedback/feedbackform";
 
 
 function App() {
